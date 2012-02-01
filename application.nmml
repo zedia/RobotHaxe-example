@@ -9,8 +9,10 @@
 	<set name="BUILD_DIR" value="bin" />
 	
 	<!-- classpath, haxe libs -->
-	<classpath name="src" /><classpath name="lib" />
+	<classpath name="src" />
+	<classpath name="lib" />
 	<haxelib name="nme" />
+	<haxelib name="robothaxe" />
 	
 	<!-- assets -->
 	<icon name="assets/nme.svg" />

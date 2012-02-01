@@ -3,6 +3,7 @@
 -cp src
 -cp lib
 -lib nme
+-lib robothaxe
 --macro RTTI.generate()
 -swf-version 10
 -swf9 bin/flash/bin/TestRobotHaxe.swf
