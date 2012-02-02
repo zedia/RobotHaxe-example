@@ -18,7 +18,7 @@ class TestViewMediator extends Mediator {
 	}
 	
 	override public function onRegister():Void {
-		trace ("arrrrrrrrrrrrrrr");
+		trace ("the mediator for TestView was created");
 	}
 	
 }

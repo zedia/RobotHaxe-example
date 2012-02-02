@@ -10,6 +10,6 @@ class ApplicationModel extends Actor {
 
 	public function new() {
 		super();
-		trace ("oh yeah!");
+		trace ("The Application Model was created");
 	}
 }
