@@ -6,11 +6,11 @@ import nme.display.StageScaleMode;
 import nme.Lib;
 import nme.display.Sprite;
 import robothaxe.mvcs.Context;
-import com.zedia.testrobothaxe.BaseView;
+import com.zedia.robothaxe.BaseView;
 
 
 class Main extends Sprite{
-	static private var context:RobotContext;
+	static private var _context:RobotContext;
 	
 	
 	static public function main() {
@@ -19,9 +19,6 @@ class Main extends Sprite{
 		stage.align = StageAlign.TOP_LEFT;
 		// entry point
 		
-		context = new RobotContext(new BaseView(stage));
-		
-		
+		_context = new RobotContext(new BaseView(stage));
 	}
-	
 }

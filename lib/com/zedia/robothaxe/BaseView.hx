@@ -1,4 +1,4 @@
-package com.zedia.testrobothaxe;
+package com.zedia.robothaxe;
 
 /**
  * ...

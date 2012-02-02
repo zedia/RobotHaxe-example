@@ -4,7 +4,7 @@ package com.zedia.testrobothaxe.view.components;
  * ...
  * @author me
  */
-import com.zedia.testrobothaxe.view.components.SpriteView;
+import com.zedia.robothaxe.SpriteView;
  
 class TestView extends SpriteView{
 

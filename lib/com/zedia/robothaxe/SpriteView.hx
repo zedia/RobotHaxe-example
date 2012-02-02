@@ -1,8 +1,10 @@
-package com.zedia.testrobothaxe.view.components;
+package com.zedia.robothaxe;
 
 /**
- * ...
- * @author me
+ * @author Dominic Gelineau
+ * 
+ * When I normally use RobotLegs, all my views are Sprites, now, since I have to implement IViewContainer
+ * I made this class that all my views will extends instead of extending Sprite
  */
 import nme.display.Sprite;
 import robothaxe.core.IViewContainer;

@@ -17,7 +17,6 @@
   <classpaths>
     <class path="src" />
     <class path="lib" />
-    <class path="..\..\..\Motion-Twin\haxe\lib\robothaxe\1,0,1" />
   </classpaths>
   <!-- Build options -->
   <build>
